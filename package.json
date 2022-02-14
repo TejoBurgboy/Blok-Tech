@@ -1,0 +1,26 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "Inlogmatching",
+  "main": "index.js",
+  "scripts": {
+    "start": "node js/test.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TejoBurgboy/Back-End.git"
+  },
+  "keywords": [
+    "log"
+  ],
+  "author": "Tejo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TejoBurgboy/Back-End/issues"
+  },
+  "homepage": "https://github.com/TejoBurgboy/Back-End#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
