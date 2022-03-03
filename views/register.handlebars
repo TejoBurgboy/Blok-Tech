@@ -1,0 +1,30 @@
+<header>
+    <h1>Matching</h1>
+    <nav>
+        <ul>
+            <li> <a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/register">Registeren</a></li>
+        </ul>
+    </nav>
+    <h2>maak een acount aan</h2>
+    <h3>hallo {{user.name}} uit {{user.woont}} die {{user.leeftijd}} jaar oud is.</h3>
+</header>
+<main>
+    <form action="/register" method="post" id="form">
+        <fieldset>
+            <legend> Wie ben je</legend>
+            <label for="name">Vul je naam in </label>
+            <input type="name" id="name" name="name" required>
+            <legend>E-mail</legend>
+            <label for="mail">Vul je email in </label>
+            <input type="mail" id="mail" name="mail" required>
+            <legend>Wachtwoord</legend>
+            <label for="password"> maak een wachtwoord </label>
+            <input type="password" id="wachtwoord" name="wachtwoord" required>
+        </fieldset>
+        <input type="button" id="submit" value="Submit me astublieft">
+    </form>
+    <h3>{{gebruiker}}</h3>
+    <script src="register.js"></script>
+</main>
