@@ -1,0 +1,79 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+:root{
+    --pagina-kleur: darkblue;
+    --tekst-kleur: white;
+    --link-kleur: lightyellow;
+    --border-kleur:white;
+
+}
+
+body{
+	background-color: var(--pagina-kleur);
+    color: var(--tekst-kleur);
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header{
+margin: 1em;
+text-align: center;
+}
+
+nav > ul{
+    margin: 1em;
+justify-content: center;
+    padding: 10px 0px;
+    list-style-type: none;
+    display: flex;
+}
+
+nav > ul > li > a{
+    border-radius: 1ch ;
+    margin: 6px;
+    padding: 8px;
+    border: 2px solid var(-border-kleur);
+    background-color: cyan;
+}
+
+a{
+    color: var(--link-kleur)
+}
+
+h1, h2{
+    font-weight: bold;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    padding: 1em;
+    display: block;
+}
+
+button{
+    padding: 1em;
+    border-radius: 1ch ;
+    border: 2px solid var(-border-kleur);
+    background-color: cyan;
+    display: block;
+}
+
+fieldset{
+    padding: .5em;
+}
+input#submit{
+    margin: .5em;
+    display: flex;
+    justify-content: center;
+}
+
+legend{
+    margin-top: .5em;
+}
