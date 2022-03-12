@@ -7,8 +7,10 @@ box-sizing: border-box;
 :root{
     --pagina-kleur: darkblue;
     --tekst-kleur: white;
-    --link-kleur: lightyellow;
+    --link-kleur: black;
     --border-kleur:white;
+    --button-color:white;
+    --button-text-color:black;
 
 }
 
@@ -36,7 +38,7 @@ nav > ul > li > a{
     margin: 6px;
     padding: 8px;
     border: 2px solid var(-border-kleur);
-    background-color: cyan;
+    background-color: white;
 }
 
 a{
@@ -60,7 +62,7 @@ button{
     padding: 1em;
     border-radius: 1ch ;
     border: 2px solid var(-border-kleur);
-    background-color: cyan;
+    background-color: var(--button-color);
     margin: auto;
     font-weight: bold;
 }
