@@ -12,6 +12,7 @@ const EXPsession = process.env.SecretSESSION
 const app = express();
 const passport =  require('passport')
 
+console.log(session);
 
 mongoose.connect(dbkey,{useNewURLparser: true})
 .then(()=> console.log('database is connected.'))
