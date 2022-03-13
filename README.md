@@ -1,5 +1,14 @@
 # Gamebuddy
 ## Feature Tejo tech-2
+#### metadata
+Blok: Project Tech
+<br />
+klas: tech-2
+<br />
+Docenten: Janno,Ivo en Robert
+<br />
+Naam: Tejo van der Burg
+
 ## Over Gamebuddy
 Bij de Gamebuddy,s kan de een gamer nieuwe vrienden maken doormiddel van zijn of haar favoriete game.
 Mensen met dezelfde game interesses worden aan elkaar gekoppeld.
