@@ -26,10 +26,10 @@ en SecretSESSION = you secret key.
 Voor mijn database heb ik gebruik gemaakt van mongodb.
 
 ## Gebruikte bronnen
-Hierbij een overzicht van gebruikte bronnen
-[tutorial info in en uit een databse](https://www.youtube.com/watch?v=IXVmc4WITckg)
-[tutorial in en uit loggen clientsize](https://www.youtube.com/watch?v=-RCnNyD0L-s&t=1049s)
-[uitleg mongodb](https://docs.atlas.mongodb.com/getting-started/)
-[uitleg handlebars](https://github.com/express-handlebars/express-handlebars#basic-usage)
+Hierbij een overzicht van gebruikte bronnen <br />
+[tutorial info in en uit een databse](https://www.youtube.com/watch?v=IXVmc4WITckg) <br />
+[tutorial in en uit loggen clientsize](https://www.youtube.com/watch?v=-RCnNyD0L-s&t=1049s) <br />
+[uitleg mongodb](https://docs.atlas.mongodb.com/getting-started/) <br />
+[uitleg handlebars](https://github.com/express-handlebars/express-handlebars#basic-usage) <br />
 
 
