@@ -92,7 +92,7 @@ legend {
 form>button {
 	background-color: darkblue;
 	color: white;
-	padding: .5em;
+	padding: 1em;
 	margin-top: .5em;
-	border: 10px solid var(--border-kleur);
+	border: 2px solid var(--border-kleur);
 }
