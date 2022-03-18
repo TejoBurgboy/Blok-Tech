@@ -1,17 +1,31 @@
 console.log("aap");
-let naamveld = document.querySelector("#Naamveld");
-let mailveld = document.querySelector("#Mailveld");
-let passwordveld = document.querySelector("#Passwordveld");
-let buttonInput = document.querySelector("button");
+const gamekiezer = document.querySelector("#gamechoose");
+const buttonInput = document.querySelector("button");
+const games = ["Mario","Pokemon","Gta","Fifa","World of war craft", "Zelda", "Kirby","Super Smash", "Heardstone", "League of Legends", "mario", "pokemon","LOL", "WOWC", "minecraft", "Civ", "FM", "Football manager"];
+
+//fetch("https://rawg-video-games-database.p.rapidapi.com/games", {
+    //"method": "GET",	
+//"headers": {
+		//"x-rapidapi-host": "rawg-video-games-database.p.rapidapi.com",
+		//"x-rapidapi-key": "8b3b04ef67mshb9494ce2457e3c4p130cadjsn6c5d39bb1752"
+	//}
+//})
+// 	.then(res => {
+// 	return res.json();
+ //}).then(data => {
+ 	//console.log(data);
+ //});
+
 
 let inputform = () => {
-    let nameinput = document.querySelector("input#name").value;
-    let passwordinput = document.querySelector("input#wachtwoord").value;
-    let mailinput = document.querySelector("input#mail").value;
-    naamveld.textContent = nameinput;
-    mailveld.textContent = mailinput;
-    passwordveld.textContent = passwordinput;
-    console.log(nameinput, passwordinput, mailinput);
+console.log(gamekiezer);
+let gekozenGame = document.querySelector("input#gamechoose").value;
+console.log(gekozenGame);
+if ( games.includes(gekozenGame)){
+    alert("Game wordt in database gezet");
+} else{
+    alert("Deze game bestaat niet");
+}
 };
 
 buttonInput.addEventListener("click", inputform);
