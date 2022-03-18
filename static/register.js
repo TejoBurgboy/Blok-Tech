@@ -7,7 +7,7 @@ const games = ["Mario","Pokemon","Gta","Fifa","World of war craft", "Zelda", "Ki
     //"method": "GET",	
 //"headers": {
 		//"x-rapidapi-host": "rawg-video-games-database.p.rapidapi.com",
-		//"x-rapidapi-key": "8b3b04ef67mshb9494ce2457e3c4p130cadjsn6c5d39bb1752"
+		//"x-rapidapi-key": "secret-key
 	//}
 //})
 // 	.then(res => {
