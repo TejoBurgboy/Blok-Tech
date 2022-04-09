@@ -3,20 +3,6 @@ const gamekiezer = document.querySelector("#gamechoose");
 const buttonInput = document.querySelector("button");
 const games = ["Mario","Pokemon","Gta","Fifa","World of war craft", "Zelda", "Kirby","Super Smash", "Heardstone", "League of Legends", "mario", "pokemon","LOL", "WOWC", "minecraft", "Civ", "FM", "Football manager"];
 
-//fetch("https://rawg-video-games-database.p.rapidapi.com/games", {
-    //"method": "GET",	
-//"headers": {
-		//"x-rapidapi-host": "rawg-video-games-database.p.rapidapi.com",
-		//"x-rapidapi-key": "secret-key
-	//}
-//})
-// 	.then(res => {
-// 	return res.json();
- //}).then(data => {
- 	//console.log(data);
- //});
-
-
 let inputform = () => {
 console.log(gamekiezer);
 let gekozenGame = document.querySelector("input#gamechoose").value;
