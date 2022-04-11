@@ -8,19 +8,17 @@
             <li><a href="/login">Login</a></li>
         </ul>
     </nav>
-    <h2>maak een acount aan</h2>
 </header>
 <main>
-    <form action="/login" method="post" id="form">
-        <fieldset>
-            <legend> Wie ben je</legend>
-            <label for="name">Vul je naam in </label>
-            <input type="name" id="name" name="name" required>
-            <legend>Wachtwoord</legend>
-            <label for="password"> maak een wachtwoord </label>
-            <input type="password" id="wachtwoord" name="wachtwoord" required>
+    <form action="/login" method="post" class="login--forum">
+        <legend class="login--forum-header">Log in</legend>
+        <fieldset class="login--forum-content">
+            <label for="name">Vul hier je naam in </label>
+            <input class="login--forum-input" type="name" id="name" name="name" required>
+            <label for="password"> Vul hier je wachtwoord in </label>
+            <input class="login--forum-input" type="password" id="wachtwoord" name="wachtwoord" required>
+            <button class="login--forum-button" type="submit">Log in</button>
         </fieldset>
-        <button type="submit">Log in</button>
     </form>
     <button><a href="/register"> Registeren </a></button>
 </main>
