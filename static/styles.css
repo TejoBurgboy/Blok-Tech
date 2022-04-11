@@ -5,7 +5,8 @@
 }
 
 :root {
-	--pagina-kleur: darkblue;
+	--pagina-kleur-1: darkblue;
+	--pagina-kleur-2: black;
 	--tekst-kleur: white;
 	--link-kleur: black;
 	--border-kleur: white;
@@ -14,9 +15,9 @@
 }
 
 body {
-	background-color: var(--pagina-kleur);
 	color: var(--tekst-kleur);
 	font-family: Georgia, 'Times New Roman', Times, serif;
+	background: linear-gradient(var(--pagina-kleur-1),var(--pagina-kleur-2),var(--pagina-kleur-1));
 }
 
 header {
