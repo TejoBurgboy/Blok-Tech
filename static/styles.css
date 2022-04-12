@@ -25,6 +25,16 @@ header {
 	text-align: center;
 }
 
+.header-title{
+	display: flex;
+justify-content: space-around;
+margin: 1em 30em 1em 30em;
+}
+
+.header-titel--image{
+	width: 15%;
+}
+
 nav>ul {
 	margin: 1em;
 	justify-content: center;
@@ -39,6 +49,7 @@ nav>ul>li>a {
 	padding: 8px;
 	border: 2px solid var(--border-kleur);
 	background-color: white;
+	opacity: 0.6;
 }
 
 a {
@@ -66,12 +77,13 @@ button {
 	background-color: var(--button-color);
 	margin: auto;
 	font-weight: bold;
+	opacity: 0.6;
 }
 
 
 
 .login--forum{
-	max-width: 18em;
+	max-width: 22em;
 	margin: 0 auto;
 	margin-bottom: 2em;
 	border-radius: 5px;
@@ -101,6 +113,7 @@ border: none;
 	border-radius: 5px;
 	border: 2px solid var(--border-kleur);
 	opacity: 0.9;
+	outline: none;
 }
 
 
@@ -113,7 +126,7 @@ border: none;
 }
 
 .register--forum{
-	max-width: 18em;
+	max-width: 22em;
 	margin: 0 auto;
 	margin-bottom: 2em;
 	border-radius: 5px;
@@ -143,6 +156,7 @@ border: none;
 	border-radius: 5px;
 	border: 2px solid var(--border-kleur);
 	opacity: 0.9;
+	outline: none;
 }
 
 
