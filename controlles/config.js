@@ -1,8 +1,10 @@
+require('dotenv').config();
 const User = require('../models/user');
-const bcrypt = require('bcryptjs');
-const jwt = require('jsonwebtoken');
 const user = require('../models/user');
-
+const bcrypt = require('bcryptjs');
+const nodemailer = require('nodemailer');
+const mailuser = process.env.usermail;
+const mailpass = process.env.passmail;
 
 
 //registeer code
@@ -24,11 +26,52 @@ const register = (req, res, next) => {
         });
         user.save()
             .then(user => {
+                async function main() {
+                    console.log('Hallo');
+
+                    let transporter = nodemailer.createTransport({
+                        service: 'gmail',
+                        auth: {
+                            user: mailuser,
+                            pass: mailpass,
+                        },
+                        tls: {
+                            rejectUnautorized: false
+                        },
+
+                    });
+                    console.log('Hallo');
+
+
+                    let mailoptions = {
+                        from: 'Gamebuddy,s',
+                        to: req.body.mail,
+                        subject: 'Registratie Gamebuddy,s',
+                        text: 'Regegisteert',
+                        html: '<b> Uw registratie bij Gamebuddy,s gelukt <b>',
+
+                    };
+
+                    transporter.sendMail(mailoptions, (error, info) => {
+                        if (error) {
+                            return console.log(error),
+                            res.json({
+                                error: error,
+                                message: 'er gaat hier iets fout',
+                            });
+                        }
+                        console.log('message send: %s', info.messageID);
+                        console.log('Preview URL: %s', nodemailer.getTestMessageUrl(info));
+                        
+                    });
+                }
+                main().catch(console.error);
                 res.redirect('/login');
                 return;
+
             })
             .catch(error => {
-                errors.push({msg: 'er gaat hier iets fout probeer het opnieuw'});
+                errors.push({ msg: 'er gaat hier iets fout probeer het opnieuw' });
                 res.redirect('/register');
                 return;
             });
@@ -59,8 +102,8 @@ const login = (req, res, next) => {
                     if (result) {
                         //let token = jwt.sign({ naam: user.name }, 'verySecretValue');
                         //res.json({
-                           // message: 'Login succesvol',
-                            //token: token,
+                        // message: 'Login succesvol',
+                        //token: token,
                         //});
                         res.redirect('/logged');
                         return;
@@ -70,7 +113,8 @@ const login = (req, res, next) => {
                         });
                         return;
                     }
-                });
+                }
+                );
 
             } else {
                 res.json({
