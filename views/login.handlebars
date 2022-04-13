@@ -1,5 +1,9 @@
 <header>
-    <h1>Gamebuddy,s</h1>
+    <div class="title">
+        <img class="titel__image" src="/upload/controler-light.png" alt="Logo Gamebuddy,s">
+        <h1>Gamebuddy,s</h1>
+        <img class="titel__image" src="/upload/controler-light.png" alt="Logo Gamebuddy,s">
+    </div>
     <nav>
         <ul>
             <li> <a href="/">Home</a></li>
@@ -10,14 +14,14 @@
     </nav>
 </header>
 <main>
-    <form action="/login" method="post" class="login--forum">
-        <legend class="login--forum-header">Log in</legend>
-        <fieldset class="login--forum-content">
+    <form action="/login" method="post">
+        <legend class="forum__header">Log in</legend>
+        <fieldset class="forum__content">
             <label for="name">Vul hier je naam in </label>
-            <input class="login--forum-input" type="name" id="name" name="name" required>
+            <input class="forum__input" type="name" id="name" name="name" required>
             <label for="password"> Vul hier je wachtwoord in </label>
-            <input class="login--forum-input" type="password" id="wachtwoord" name="wachtwoord" required>
-            <button class="login--forum-button" type="submit">Log in</button>
+            <input class="forum__input" type="password" id="wachtwoord" name="wachtwoord" required>
+            <button class="forum__button" type="submit">Log in</button>
         </fieldset>
     </form>
     <button><a href="/register"> Registeren </a></button>

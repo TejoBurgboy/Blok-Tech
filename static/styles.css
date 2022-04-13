@@ -11,7 +11,7 @@
 	--border-kleur: white;
 	--button-color: white;
 	--button-text-color: black;
-	--forum-background:rgba(0, 0, 0, 0.2);;
+	--forum-background:rgba(0, 0, 0, 0.2);
 }
 
 body {
@@ -25,13 +25,13 @@ header {
 	text-align: center;
 }
 
-.header-title{
+.title{
 	display: flex;
 justify-content: space-around;
 margin: 1em 30em 1em 30em;
 }
 
-.header-titel--image{
+.titel__image{
 	width: 15%;
 }
 
@@ -82,7 +82,7 @@ button {
 
 
 
-.login--forum{
+form{
 	max-width: 22em;
 	margin: 0 auto;
 	margin-bottom: 2em;
@@ -92,12 +92,12 @@ button {
 	border: 2px solid var(--border-kleur);
 }
 
-.login--forum-header{
+.forum__header{
 	font-weight: bold;
 	margin-top: 1em;
 }
 
-.login--forum-content{
+.forum__content{
 padding: 2em;
 border: none;
 
@@ -106,7 +106,7 @@ border: none;
 
 
 
-.login--forum-input{
+.forum__input{
 	width: 80%;
 	margin-bottom: .5em;
 	padding: 1em;
@@ -117,50 +117,7 @@ border: none;
 }
 
 
-.login--forum-button{
-	background-color: darkblue;
-	color: white;
-	padding: 1em;
-	border: 2px solid var(--border-kleur);
-	margin-top: .5em ;
-}
-
-.register--forum{
-	max-width: 22em;
-	margin: 0 auto;
-	margin-bottom: 2em;
-	border-radius: 5px;
-	overflow: hidden;
-	background: var(--forum-background);
-	border: 2px solid var(--border-kleur);
-}
-
-.register--forum-header{
-	font-weight: bold;
-	margin-top: 1em;
-}
-
-.register--forum-content{
-padding: 2em;
-border: none;
-
-}
-
-
-
-
-.register--forum-input{
-	width: 80%;
-	margin-bottom: .5em;
-	padding: 1em;
-	border-radius: 5px;
-	border: 2px solid var(--border-kleur);
-	opacity: 0.9;
-	outline: none;
-}
-
-
-.register--forum-button{
+.forum__button{
 	background-color: darkblue;
 	color: white;
 	padding: 1em;

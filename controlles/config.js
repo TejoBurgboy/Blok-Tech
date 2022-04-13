@@ -27,7 +27,6 @@ const register = (req, res, next) => {
         user.save()
             .then(user => {
                 async function main() {
-                    console.log('Hallo');
 
                     let transporter = nodemailer.createTransport({
                         service: 'gmail',
@@ -40,7 +39,6 @@ const register = (req, res, next) => {
                         },
 
                     });
-                    console.log('Hallo');
 
 
                     let mailoptions = {
@@ -60,8 +58,6 @@ const register = (req, res, next) => {
                                 message: 'er gaat hier iets fout',
                             });
                         }
-                        console.log('message send: %s', info.messageID);
-                        console.log('Preview URL: %s', nodemailer.getTestMessageUrl(info));
                         
                     });
                 }
