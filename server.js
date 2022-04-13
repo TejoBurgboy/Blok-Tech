@@ -3,7 +3,7 @@ const express = require('express');
 const { engine } = require('express-handlebars');
 const session = require('express-session');
 const bodyParser = require('body-parser');
-const Port = process.env.Port || 3000;
+const port = process.env.PORT || 3000;
 const bcrypt = require('bcrypt');
 const { response } = require('express');
 const mongoose = require('mongoose');
@@ -60,8 +60,8 @@ app.use((req, res) => {
 });
 
 //connecten met de local host
-app.listen(Port, () => {
-  console.log(`server running on port: ${Port}`);
+app.listen(port, () => {
+  console.log(`server running on port: ${port}`);
 });
 
 
