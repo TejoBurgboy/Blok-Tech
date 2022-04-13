@@ -18,6 +18,8 @@ body {
 	color: var(--tekst-kleur);
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	background: linear-gradient(var(--pagina-kleur-1),var(--pagina-kleur-2),var(--pagina-kleur-1));
+	min-height: 100vh;
+	padding: 0;
 }
 
 header {
