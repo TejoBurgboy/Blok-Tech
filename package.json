@@ -4,8 +4,8 @@
   "description": "Inlogmatching",
   "main": "index.js",
   "scripts": {
-    "devStart": "nodemon Server.js",
-    "start": "node Server.js",
+    "devStart": "nodemon server.js",
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
