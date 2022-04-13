@@ -31,7 +31,8 @@ Als dit gedaan is ga naar localhost:5000 dan is de site te zien. Als je wil regi
 ## .env
 naast node_modules heeft u ook een env nodig.
 het enigste wat u neer moet zetten is `MongoURU = link naar jou database` ,
-en `SecretSESSION = you secret key`.
+`SecretSESSION = you secret key` en tot slot ook voor de node mailer `usermail=your gmail
+passmail=your gmail password`.
 
 ## Database
 Voor mijn database heb ik gebruik gemaakt van mongodb.
