@@ -1,6 +1,6 @@
 # Gamebuddy
 ## Feature Tejo tech-2
-#### metadata
+#### Metadata
 Blok: Project Tech
 <br />
 klas: tech-2
@@ -38,6 +38,9 @@ passmail=your gmail password`.
 
 ## Database
 Voor mijn database heb ik gebruik gemaakt van mongodb.
+
+## Documentatie
+Ik de [wiki](https://github.com/TejoBurgboy/Wiki-blok-tech/wiki) staat een nog uitgebreidere documentatie met onder andere ook research naar extra onderwerpen.
 
 ## Gebruikte bronnen
 Hierbij een overzicht van gebruikte bronnen <br />
