@@ -42,6 +42,9 @@ Voor mijn database heb ik gebruik gemaakt van mongodb.
 ## Documentatie
 Ik de [wiki](https://github.com/TejoBurgboy/Wiki-blok-tech/wiki) staat een nog uitgebreidere documentatie met onder andere ook research naar extra onderwerpen.
 
+##deploy
+Hierbij een link naar de [gedeployed versie van de site](https://gamebuddys.herokuapp.com/)
+
 ## Gebruikte bronnen
 Hierbij een overzicht van gebruikte bronnen <br />
 [tutorial info in en uit een databse](https://www.youtube.com/watch?v=IXVmc4WITckg) <br />
