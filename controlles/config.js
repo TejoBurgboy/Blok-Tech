@@ -53,12 +53,12 @@ const register = (req, res, next) => {
                     transporter.sendMail(mailoptions, (error, info) => {
                         if (error) {
                             return console.log(error),
-                            res.json({
-                                error: error,
-                                message: 'er gaat hier iets fout',
-                            });
+                                res.json({
+                                    error: error,
+                                    message: 'er gaat hier iets fout',
+                                });
                         }
-                        
+
                     });
                 }
                 main().catch(console.error);

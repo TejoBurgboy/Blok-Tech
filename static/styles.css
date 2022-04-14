@@ -11,13 +11,13 @@
 	--border-kleur: white;
 	--button-color: white;
 	--button-text-color: black;
-	--forum-background:rgba(0, 0, 0, 0.2);
+	--forum-background: rgba(0, 0, 0, 0.2);
 }
 
 body {
 	color: var(--tekst-kleur);
 	font-family: Georgia, 'Times New Roman', Times, serif;
-	background: linear-gradient(var(--pagina-kleur-1),var(--pagina-kleur-2),var(--pagina-kleur-1));
+	background: linear-gradient(var(--pagina-kleur-1), var(--pagina-kleur-2), var(--pagina-kleur-1));
 	min-height: 100vh;
 	padding: 0;
 }
@@ -27,13 +27,13 @@ header {
 	text-align: center;
 }
 
-.title{
+.title {
 	display: flex;
-justify-content: space-around;
-margin: 1em 30em 1em 30em;
+	justify-content: space-around;
+	margin: 1em 30em 1em 30em;
 }
 
-.titel__image{
+.titel__image {
 	width: 15%;
 }
 
@@ -84,7 +84,7 @@ button {
 
 
 
-form{
+form {
 	max-width: 22em;
 	margin: 0 auto;
 	margin-bottom: 2em;
@@ -94,21 +94,21 @@ form{
 	border: 2px solid var(--border-kleur);
 }
 
-.forum__header{
+.forum__header {
 	font-weight: bold;
 	margin-top: 1em;
 }
 
-.forum__content{
-padding: 2em;
-border: none;
+.forum__content {
+	padding: 2em;
+	border: none;
 
 }
 
 
 
 
-.forum__input{
+.forum__input {
 	width: 80%;
 	margin-bottom: .5em;
 	padding: 1em;
@@ -119,10 +119,10 @@ border: none;
 }
 
 
-.forum__button{
+.forum__button {
 	background-color: darkblue;
 	color: white;
 	padding: 1em;
 	border: 2px solid var(--border-kleur);
-	margin-top: .5em ;
+	margin-top: .5em;
 }
