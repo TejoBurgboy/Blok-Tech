@@ -18,6 +18,8 @@ Ik ben als feature gekozen voor inloggen en registreren.
 Dit is omdat inloggen en registeren 2 veel voorkomende functies zijn op het internet en ik graag zou leren hoe je die kan maken.
 ![Wireframe registratie](https://i.ibb.co/RcSX0HN/wireframe-tech-blok.png)
 
+## license
+Voor mijn feature heb ik gebruik gemaakt van de mit license.
 
 ## How to download the repo?
 je kan natuurlijk een zip van mijn github downloaden maar je kan ook de luie manier kiezen.
