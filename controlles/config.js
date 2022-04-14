@@ -96,11 +96,6 @@ const login = (req, res, next) => {
                         return;
                     }
                     if (result) {
-                        //let token = jwt.sign({ naam: user.name }, 'verySecretValue');
-                        //res.json({
-                        // message: 'Login succesvol',
-                        //token: token,
-                        //});
                         res.redirect('/logged');
                         return;
                     } else {
