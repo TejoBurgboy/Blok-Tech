@@ -3,6 +3,17 @@
 	margin: 0;
 }
 
+
+@font-face {
+	font-family: main-font;
+	src: url(./fonts/CircularStd-Bold.otf);
+}
+
+@font-face {
+	font-family: secondary-font;
+	src: url(./fonts/Poppins-Regular.ttf);
+}
+
 :root {
 	--pagina-kleur-1: darkblue;
 	--pagina-kleur-2: black;
@@ -12,11 +23,14 @@
 	--button-color: white;
 	--button-text-color: black;
 	--forum-background: rgba(0, 0, 0, 0.2);
+
+	--main-font: main-font; 
+	--secondary-font: secondary-font; 
 }
 
 body {
 	color: var(--tekst-kleur);
-	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-family: var(--secondary-font);
 	background: linear-gradient(var(--pagina-kleur-1), var(--pagina-kleur-2), var(--pagina-kleur-1));
 	min-height: 100vh;
 	padding: 0;
@@ -31,6 +45,7 @@ header {
 	display: flex;
 	justify-content: space-around;
 	margin: 1em 30em 1em 30em;
+	font-family: var(--main-font);
 }
 
 .titel__image {
@@ -55,7 +70,8 @@ nav>ul>li>a {
 }
 
 a {
-	color: var(--link-kleur)
+	color: var(--link-kleur);
+	text-decoration: none;
 }
 
 h1,
