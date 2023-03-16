@@ -24,8 +24,8 @@
 	--button-text-color: black;
 	--forum-background: rgba(0, 0, 0, 0.2);
 
-	--main-font: main-font; 
-	--secondary-font: secondary-font; 
+	--main-font: main-font;
+	--secondary-font: secondary-font;
 }
 
 body {
@@ -99,7 +99,6 @@ button {
 }
 
 
-
 form {
 	max-width: 22em;
 	margin: 0 auto;
@@ -122,8 +121,6 @@ form {
 }
 
 
-
-
 .forum__input {
 	width: 80%;
 	margin-bottom: .5em;
@@ -141,4 +138,10 @@ form {
 	padding: 1em;
 	border: 2px solid var(--border-kleur);
 	margin-top: .5em;
+}
+
+.forum_button_disabeld {
+	color: gray;
+	background-color: lightgray;
+	opacity: .2;
 }
