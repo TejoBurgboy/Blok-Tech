@@ -2,7 +2,7 @@ const gameKiezer = document.querySelector("#gamechoose");
 const buttonInput = document.querySelector("button");
 const submitBtn = document.getElementById("submit-btn");
 const gameCheck = document.getElementById("game-check");
-//Het uit zetten van de registeer knop zodat de gebruiker niet kan reageren zonder een juiste game te hebben. Ook wordt de button zelf dissabeld.
+//Het uit zetten van de registeer knop en het aanzetten van de game check knop zodat de gebruiker niet kan reageren zonder een juiste game te hebben. Ook wordt de button zelf dissabeld.
 submitBtn.disabled = true;
 submitBtn.classList.add("forum_button_disabeld");
 gameCheck.classList.remove("forum_button_disabeld");
