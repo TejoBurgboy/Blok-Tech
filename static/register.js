@@ -1,13 +1,15 @@
-const gamekiezer = document.querySelector("#gamechoose");
+const gameKiezer = document.querySelector("#gamechoose");
 const buttonInput = document.querySelector("button");
 const submitBtn = document.getElementById("submit-btn");
 const gameCheck = document.getElementById("game-check");
 //Het uit zetten van de registeer knop zodat de gebruiker niet kan reageren zonder een juiste game te hebben. Ook wordt de button zelf dissabeld.
 submitBtn.disabled = true;
-submitBtn.classList.add("forum_button_disabeld")
+submitBtn.classList.add("forum_button_disabeld");
+gameCheck.classList.remove("forum_button_disabeld");
+
 
 let inputform = () => {
-	console.log(gamekiezer);
+	console.log(gameKiezer);
 	let gekozenGame = document.querySelector("input#gamechoose").value;
 	console.log(gekozenGame);
 	fetch(

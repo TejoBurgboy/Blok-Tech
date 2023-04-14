@@ -37,14 +37,14 @@ body {
 }
 
 header {
-	margin: 1em;
+	margin: 16px;
 	text-align: center;
 }
 
 .title {
 	display: flex;
 	justify-content: space-around;
-	margin: 1em 30em 1em 30em;
+	margin: 16px 480px 16px 480px;
 	font-family: var(--main-font);
 }
 
@@ -53,7 +53,7 @@ header {
 }
 
 nav>ul {
-	margin: 1em;
+	margin: 16px;
 	justify-content: center;
 	padding: 10px 0px;
 	list-style-type: none;
@@ -64,7 +64,6 @@ nav>ul>li>a {
 	border-radius: 1ch;
 	margin: 6px;
 	padding: 8px;
-	border: 2px solid var(--border-kleur);
 	background-color: white;
 	opacity: 0.6;
 }
@@ -84,14 +83,13 @@ main {
 }
 
 p {
-	padding: 1em;
+	padding: 16px;
 	display: block;
 }
 
 button {
-	padding: 1em;
+	padding: 16px;
 	border-radius: 1ch;
-	border: 2px solid var(--border-kleur);
 	background-color: var(--button-color);
 	margin: auto;
 	font-weight: bold;
@@ -100,9 +98,9 @@ button {
 
 
 form {
-	max-width: 22em;
+	max-width: 352px;
 	margin: 0 auto;
-	margin-bottom: 2em;
+	margin-bottom: 32px;
 	border-radius: 5px;
 	overflow: hidden;
 	background: var(--forum-background);
@@ -111,11 +109,11 @@ form {
 
 .forum__header {
 	font-weight: bold;
-	margin-top: 1em;
+	margin-top: 16px;
 }
 
 .forum__content {
-	padding: 2em;
+	padding: 32px;
 	border: none;
 
 }
@@ -123,8 +121,8 @@ form {
 
 .forum__input {
 	width: 80%;
-	margin-bottom: .5em;
-	padding: 1em;
+	margin-bottom: 8px;
+	padding: 16px;
 	border-radius: 5px;
 	border: 2px solid var(--border-kleur);
 	opacity: 0.9;
@@ -135,9 +133,9 @@ form {
 .forum__button {
 	background-color: darkblue;
 	color: white;
-	padding: 1em;
+	padding: 16px;
 	border: 2px solid var(--border-kleur);
-	margin-top: .5em;
+	margin-top: 8px;
 }
 
 .forum_button_disabeld {

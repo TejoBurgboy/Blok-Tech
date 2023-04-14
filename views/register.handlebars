@@ -14,23 +14,23 @@
     </nav>
 </header>
 <main>
+    <h2>Registeer</h2>
     <form action="/register" method="post">
-        <legend class="forum__header"> Maak een acount aan </legend>
         <fieldset class="forum__content">
+            <legend class="forum__header"> Maak een acount aan </legend>
             <label for="name">Vul je naam in </label>
-            <input class="forum__input" type="name" id="name" name="name" required>
+            <input class="forum__input" type="text" id="name" name="name" required>
             <label for="mail">Vul je email in </label>
-            <input class="forum__input" type="mail" id="mail" name="mail" required>
-            <label for="password"> Maak een wachtwoord </label>
+            <input class="forum__input" type="email" id="mail" name="mail" required>
+            <label for="wachtwoord"> Maak een wachtwoord </label>
             <input class="forum__input" type="password" id="wachtwoord" name="wachtwoord" required>
-            <label for="Game chooser"> Kies je favoriete game </label>
+            <label for="gamechoose"> Kies je favoriete game </label>
             <input class="forum__input" type="text" id="gamechoose" name="game" required>
-            </select>
-            <button type="button" id="game-check">Game check</button>
+            <button type="button" class="forum_button_disabeld" id="game-check">Game check</button>
             <button id="submit-btn" class="forum__button" type="submit">Registeer</button>
         </fieldset>
     </form>
-    <button><a href="/login"> login </a></button>
+    <button onclick="window.location.href='/login'"> Login als je al een acount heb</button>
     <h3>{{gebruiker}}</h3>
     <script src="register.js"></script>
 </main>

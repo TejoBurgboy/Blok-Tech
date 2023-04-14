@@ -14,15 +14,16 @@
     </nav>
 </header>
 <main>
+    <h2>Login</h2>
     <form action="/login" method="post">
-        <legend class="forum__header">Log in</legend>
         <fieldset class="forum__content">
+            <legend class="forum__header">Log in</legend>
             <label for="name">Vul hier je naam in </label>
-            <input class="forum__input" type="name" id="name" name="name" required>
-            <label for="password"> Vul hier je wachtwoord in </label>
+            <input class="forum__input" type="text" id="name" name="name" required>
+            <label for="wachtwoord"> Vul hier je wachtwoord in </label>
             <input class="forum__input" type="password" id="wachtwoord" name="wachtwoord" required>
             <button class="forum__button" type="submit">Log in</button>
         </fieldset>
     </form>
-    <button><a href="/register"> Registeren </a></button>
+    <button onclick="window.location.href='/register'"> Maak een acount aan </button>
 </main>
